@@ -1,0 +1,74 @@
+main {
+    min-height: fit-content;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+#section-banner {
+    min-height: 400px;
+    background-image: linear-gradient(to top, black 20%, #3f51b5);
+
+}
+
+#section-banner img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+/* Parte de jogos*/
+h2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: auto;
+  }
+  
+  mat-grid-list{
+    height: 550px;
+    margin: 10px 10px;
+    margin-bottom: 20px;
+    padding-top: 100px;
+    padding-inline: 500px;
+  }
+
+  mat-grid-tile{
+    padding: 2px;
+    border-radius: 30px;
+    overflow: visible;
+}
+
+mat-card-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+mat-card-actions{
+    display: flex;
+    justify-content: space-around;
+  }  
+
+  mat-card-actions p{
+    color: red;
+    font-size: 30px;
+  }
+
+  mat-card img{
+    height: 300px;
+    width: 300px;
+  }
